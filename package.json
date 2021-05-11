@@ -1,0 +1,15 @@
+{
+  "name": "unified-blog",
+  "version": "1.0.0",
+  "description": "Solution to a codewell.cc challenge",
+  "main": "index.js",
+  "dependencies": {
+    "parcel": "^2.0.0-beta.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Camille Salvador",
+  "license": "ISC"
+}
