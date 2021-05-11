@@ -2,13 +2,16 @@
   "name": "unified-blog",
   "version": "1.0.0",
   "description": "Solution to a codewell.cc challenge",
-  "main": "index.js",
   "dependencies": {
     "parcel": "^2.0.0-beta.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
   },
   "author": "Camille Salvador",
   "license": "ISC"
